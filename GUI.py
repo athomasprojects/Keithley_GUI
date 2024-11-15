@@ -141,7 +141,7 @@ class KeithleyGUI:
 
         # Abort Button
         self.abort_button = ttk.Button(master, text="Abort", command=self.abort_cmd)
-        self.abort_button.grid(row=6, column=2, padx=10, pady=5, sticky="ew")
+        self.abort_button.grid(row=7, column=0, padx=10, pady=5, sticky="ew")
 
         # Save Data Button
         self.save_button = ttk.Button(master, text="Save Data", command=self.save_data)
