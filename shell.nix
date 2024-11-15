@@ -8,8 +8,9 @@ let
   ipython = pkgs.python312Packages.ipython;
   pyvisa = pkgs.python312Packages.pyvisa;
   matplotlib = pkgs.python312Packages.matplotlib;
+  numpy = pkgs.python312Packages.numpy;
 in
   pkgs.mkShell
   {
-    buildInputs = [matplotlib pyvisa ipython];
+    buildInputs = [matplotlib numpy pyvisa ipython];
   }
