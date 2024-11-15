@@ -1,0 +1,7 @@
+[tool.pyright]
+include = ["."]
+exclude = [".venv"]
+pythonPlatform = "Linux"
+venv = ".venv"
+venvPath = "."
+
